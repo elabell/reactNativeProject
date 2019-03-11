@@ -1,0 +1,161 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#researchOptions {
+  width: 100%;
+  position: fixed;
+  right: 0;
+  display: flex;
+  top: 0%;
+  background-color: white;
+  border-bottom: double;
+}
+
+#pokeTable {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pokeTable > React.Fragment > p {
+  text-align: center;
+}
+
+#researchOptions > #LoadingText {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  background-image: url("https://www.desktopbackground.org/download/o/2015/08/10/992846_pokemon-wallpapers-original-150_3900x2459_h.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#researchOptions > #logo > img {
+  width: 30%;
+  height: auto;
+}
+#researchOption > div#logo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#researchOptions > #researchOptionsInput {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#UpperLeftCorner {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#UpperRightCorner {
+  position: absolute;
+  top: 0;
+  right: 0%;
+}
+#BottomLeftCorner {
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+}
+#BottomRightCorner {
+  bottom: 0%;
+  right: 0%;
+  position: absolute;
+}
+
+#PokedexList {
+  display: inline-block;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  width: 90%;
+  left: 0;
+  right: 0;
+  border-left: double;
+  border-right: double;
+  border-bottom: double;
+  background-color: white;
+}
+
+#PokemonListTable {
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-column-count: 10; /* Chrome, Safari, Opera */
+  -moz-column-count: 10; /* Firefox */
+  column-count: 10;
+}
+
+#root > #PokemonWebsite > #PokedexList > #PokemonListTable > tr > td > img {
+  height: 128px;
+  width: 128px;
+}
+
+#LoadingPokemons {
+  line-height: 50px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+  left: 50%;
+  margin: 0 auto;
+  padding: 10px; /* Need a specific value to work */
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+#BasicDetails {
+  border-style: solid;
+  border-color: red;
+  background-color: white;
+}
+
+#DetailsBox {
+  padding: 10px;
+}
+
+#BasicDetailsTitle {
+  border-bottom-style: solid;
+  border-color: red;
+  padding: 10px;
+}
+
+#spriteDetail {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+}
+
+#MoreDetails {
+  padding: 10px;
+  border-style: solid;
+  border-color: red;
+  background-color: white;
+  display: block;
+  flex-wrap: wrap;
+}
+
+#PageTitle {
+  text-align: center;
+  background-color: white;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+}

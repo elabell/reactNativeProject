@@ -1,0 +1,29 @@
+{
+  "main": "src/App.js",
+  "private": true,
+  "keywords": [],
+  "name": "reactnativeproject",
+  "description": null,
+  "version": "0.0.10",
+  "dependencies": {
+    "expo": "^32.0.0",
+    "react": "16.5.0",
+    "react-art": "16.8.4",
+    "react-dom": "16.8.4",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-web": "0.10.1",
+    "react-router-dom": "4.3.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0",
+    "babel-preset-expo": "^5.0.0"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  }
+}
